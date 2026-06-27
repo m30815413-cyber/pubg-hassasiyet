@@ -3,122 +3,346 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PUBG Hassasiyet Ayarları 2026</title>
+
+<title>PUBG Mobile Hassasiyet Ayarları 2026</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <style>
-body{
-background:#111;
-color:white;
-font-family:Arial,sans-serif;
+
+*{
 margin:0;
-padding:20px;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+
+background:
+radial-gradient(circle at top,#2d2d2d 0%,#101010 45%,#050505 100%);
+
+color:white;
+
+overflow-x:hidden;
+
+}
+
+/* Arkaplan Parlama */
+
+body::before{
+
+content:"";
+
+position:fixed;
+
+width:600px;
+height:600px;
+
+background:#00ff88;
+
+filter:blur(180px);
+
+opacity:.12;
+
+top:-220px;
+left:-220px;
+
+animation:move1 10s infinite alternate;
+
+z-index:-2;
+
+}
+
+body::after{
+
+content:"";
+
+position:fixed;
+
+width:550px;
+height:550px;
+
+background:#ffb300;
+
+filter:blur(180px);
+
+opacity:.10;
+
+right:-220px;
+bottom:-220px;
+
+animation:move2 12s infinite alternate;
+
+z-index:-2;
+
+}
+
+@keyframes move1{
+
+to{
+
+transform:translate(120px,80px);
+
+}
+
+}
+
+@keyframes move2{
+
+to{
+
+transform:translate(-120px,-90px);
+
+}
+
+}
+
+header{
+
+padding:80px 20px;
+
+text-align:center;
+
+}
+
+header h1{
+
+font-size:42px;
+
+font-weight:700;
+
+color:#FFD700;
+
+text-shadow:
+
+0 0 10px #FFD700,
+
+0 0 30px #FFD700;
+
+}
+
+header p{
+
+margin-top:18px;
+
+font-size:18px;
+
+color:#ddd;
+
+max-width:650px;
+
+margin-left:auto;
+margin-right:auto;
+
+line-height:1.8;
+
 }
 
 .container{
-max-width:900px;
+
+width:92%;
+
+max-width:1000px;
+
 margin:auto;
+
 }
 
-h1,h2{
-text-align:center;
-color:#00d26a;
+.card{
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(20px);
+
+border:1px solid rgba(255,255,255,.12);
+
+border-radius:25px;
+
+padding:25px;
+
+margin-bottom:30px;
+
+box-shadow:
+
+0 0 25px rgba(0,255,136,.15);
+
+transition:.4s;
+
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:
+
+0 0 35px rgba(0,255,136,.35);
+
+}
+
+.card h2{
+
+color:#00ff99;
+
+margin-bottom:20px;
+
+font-size:28px;
+
+text-shadow:0 0 15px #00ff99;
+
 }
 
 table{
-width:100%;
-border-collapse:collapse;
-margin-bottom:30px;
-}
 
-th{
-background:#00b85c;
-padding:12px;
+width:100%;
+
+border-collapse:collapse;
+
 }
 
 td{
-border:1px solid #333;
-padding:12px;
-text-align:center;
+
+padding:15px;
+
+border-bottom:1px solid rgba(255,255,255,.08);
+
+font-size:18px;
+
 }
 
-tr:nth-child(even){
-background:#1d1d1d;
+td:last-child{
+
+text-align:right;
+
+font-weight:bold;
+
+color:#FFD700;
+
 }
 
 footer{
-text-align:center;
-margin-top:40px;
-color:#aaa;
-}
-</style>
 
+padding:35px;
+
+text-align:center;
+
+color:#888;
+
+font-size:14px;
+
+}
+
+@media(max-width:700px){
+
+header h1{
+
+font-size:28px;
+
+}
+
+header p{
+
+font-size:15px;
+
+}
+
+.card h2{
+
+font-size:22px;
+
+}
+
+td{
+
+font-size:16px;
+
+padding:12px;
+
+}
+
+}
+
+</style>
 </head>
 
 <body>
 
-<div class="container">
+<header>
 
-<h1>PUBG Hassasiyet Ayarları 2026</h1>
+<h1>🎮 PUBG Mobile Hassasiyet Ayarları</h1>
 
-<p>En iyi PUBG Mobile hassasiyet ayarları.</p>
+<p>
 
-<h2>Kamera Hassasiyeti</h2>
+Profesyonel oyuncuların kullandığı en iyi kamera ve jiroskop ayarları.
+Mobil cihazlar için optimize edilmiş premium hassasiyet rehberi.
+
+</p>
+
+</header>
+
+<div class="container"><div class="card">
+
+<h2>📷 Kamera Hassasiyeti</h2>
 
 <table>
-<tr><th>Ayar</th><th>Değer</th></tr>
+
 <tr><td>3. Şahıs Kamera</td><td>120%</td></tr>
+
 <tr><td>1. Şahıs Kamera</td><td>110%</td></tr>
+
 <tr><td>Kırmızı Nokta</td><td>50%</td></tr>
-<tr><td>2x</td><td>35%</td></tr>
-<tr><td>3x</td><td>25%</td></tr>
-<tr><td>4x</td><td>20%</td></tr>
-<tr><td>6x</td><td>12%</td></tr>
-<tr><td>8x</td><td>10%</td></tr>
+
+<tr><td>2x Dürbün</td><td>35%</td></tr>
+
+<tr><td>3x Dürbün</td><td>25%</td></tr>
+
+<tr><td>4x Dürbün</td><td>20%</td></tr>
+
+<tr><td>6x Dürbün</td><td>12%</td></tr>
+
+<tr><td>8x Dürbün</td><td>10%</td></tr>
+
 </table>
-
-<h2>Jiroskop</h2>
-
-<table>
-<tr><th>Dürbün</th><th>Değer</th></tr>
-<tr><td>Kırmızı Nokta</td><td>300%</td></tr>
-<tr><td>2x</td><td>300%</td></tr>
-<tr><td>3x</td><td>240%</td></tr>
-<tr><td>4x</td><td>200%</td></tr>
-<tr><td>6x</td><td>100%</td></tr>
-<tr><td>8x</td><td>70%</td></tr>
-</table>
-
-<h2>45 Hz Hassasiyet</h2>
-
-<table>
-<tr><th>Ayar</th><th>Değer</th></tr>
-<tr><td>3. Şahıs Kamera</td><td>120%</td></tr>
-<tr><td>1. Şahıs Kamera</td><td>115%</td></tr>
-<tr><td>Kırmızı Nokta</td><td>60%</td></tr>
-<tr><td>2x</td><td>40%</td></tr>
-<tr><td>3x</td><td>30%</td></tr>
-<tr><td>4x</td><td>22%</td></tr>
-<tr><td>6x</td><td>14%</td></tr>
-<tr><td>8x</td><td>10%</td></tr>
-</table>
-
-<h2>45 Hz Jiroskop</h2>
-
-<table>
-<tr><th>Dürbün</th><th>Değer</th></tr>
-<tr><td>Kırmızı Nokta</td><td>300%</td></tr>
-<tr><td>2x</td><td>300%</td></tr>
-<tr><td>3x</td><td>240%</td></tr>
-<tr><td>4x</td><td>200%</td></tr>
-<tr><td>6x</td><td>100%</td></tr>
-<tr><td>8x</td><td>70%</td></tr>
-</table>
-
-<footer>
-© 2026 PUBG Hassasiyet Ayarları
-</footer>
 
 </div>
 
-</body>
-</html>
+<div class="card">
+
+<h2>🎯 Jiroskop Hassasiyeti</h2>
+
+<table>
+
+<tr><td>Kırmızı Nokta</td><td>300%</td></tr>
+
+<tr><td>2x Dürbün</td><td>300%</td></tr>
+
+<tr><td>3x Dürbün</td><td>240%</td></tr>
+
+<tr><td>4x Dürbün</td><td>200%</td></tr>
+
+<tr><td>6x Dürbün</td><td>100%</td></tr>
+
+<tr><td>8x Dürbün</td><td>70%</td></tr>
+
+</table>
+
+</div>
+
+<div class="card">
+
+<h2>⚡ 45 Hz Hassasiyeti</h2>
+
+<table>
+
+<tr><td>Genel Kamera</td><td>120%</td></tr>
+
+<tr><td>Genel Jiroskop</td><td>300%</td></tr>
+
+<tr><td>Akıcılık</td><td>⭐⭐⭐⭐⭐</td></tr>
+
+<tr><td>Önerilen FPS</td><td>45 FPS</td></tr>
+
+</table>
+
+</div>>
